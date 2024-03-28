@@ -5,6 +5,6 @@ def solve(N, S):
 			maxn, maxi = S[i], i
 	return maxn, maxi
 N = int(input())
-S = list(map(int, input().split())
+S = list(map(int, input().split()))
 maxn, maxi = solve(N, S)
 print(maxn, maxi)
